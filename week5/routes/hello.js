@@ -5,7 +5,7 @@ router.get('/', (req, res) => {
 res.send('Hello from the /api/hello route!');
 });
 router.get('/food', (req, res) => {
-res.send('Hello from the /api/hello/food route!');
+res.send('Hello what would you like to order.');
 });
 const foodController  = require('../controllers/foodController');
 router.get('/allfood', foodController.getAllFood); 

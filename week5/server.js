@@ -1,8 +1,8 @@
 var express = require("express")
 var app = express()
 const path = require('path');
-var port = process.env.port || 3000;
-const PORT = 3000;
+var port = process.env.port || 3001;
+const PORT = 3001;
 // Import route file
 const foodRoute = require('./routes/hello');
 // Mount the route at /api/hello
